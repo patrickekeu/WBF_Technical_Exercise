@@ -7,9 +7,7 @@ public class BowlingExercise {
     public int newscore(String game) // Game must be in the format "X-X-X-X-X-X-X-X-X-XXX" with 10 frames
     {
         // declare variables
-        int score = 0;
-        int frame = 1;
-        boolean bonusmode = false;
+        int score = 0;        
         char finalchar = game.charAt(game.length() - 1);
         int finalnum = Character.getNumericValue(finalchar);
 
